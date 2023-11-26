@@ -1,0 +1,150 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    color: rgb(6, 6, 53);
+
+}
+h1, h2, h3{
+    font-family: 'Archivo Black';
+}
+header h1{
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+
+div img{
+    width: 25vh;
+    margin: 20px 80px 0 80px;
+}
+section{
+    background-color: rgba(77, 55, 158, 0.13);
+    box-shadow: 5px 5px 10px 0px rgba(195, 0, 255, 0.466) ;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 320px;
+    width: 80%;
+    margin: 20px auto;
+}
+section h2{
+    font-size: 18px;
+}
+section p{
+    display: flex;
+    margin-left: 10px;
+    text-align: left;
+}
+span{
+    color: rgb(6, 6, 53);
+}
+span:hover{
+    color: rgb(0, 0, 248);
+}
+section:hover{
+
+    background-color: rgba(77, 55, 158, 0.445);
+}
+
+.boxText{
+    height: 15vh;
+    overflow: hidden;
+
+}
+.boxText:hover{
+    height: auto;
+}
+
+
+
+footer{
+    margin-top: auto;
+    flex-shrink: 0;
+}
+footer h3{
+    text-align: center;
+    font-size: 15px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+footer a{
+    color: rgb(6, 6, 53);
+}
+
+footer a:hover{
+    color: rgb(49, 49, 114);
+}
+
+ul{
+    list-style: none;
+    justify-content: space-between;
+}
+ul li{
+    margin-top: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(6, 6, 53);
+}
+a:hover{
+    color: rgb(49, 49, 114);
+}
+strong{
+    font-size: 15px;
+    text-align: center;
+}
+@media (min-width: 700px){
+    header{
+        height: 100px;
+    }
+    header h1{
+        font-size: 50px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        margin: auto 100px;
+        padding: 0;
+    }
+    div img{
+        width: 50vh;
+    }
+    .fromDesktop{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .fromDesktop section{
+        max-width: 600px;
+        margin-top: 25px;
+    }
+    section{
+        max-width: 600px;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 30px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    footer h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+}
